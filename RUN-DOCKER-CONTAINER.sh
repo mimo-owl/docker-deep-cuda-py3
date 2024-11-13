@@ -10,7 +10,7 @@ if [ -z $DEEP_PROJECT_NAME ]; then
   exit 1
 fi
 PROJECT=$DEEP_PROJECT_NAME
-CONTAINER="${PROJECT}_deep-1"
+CONTAINER="${PROJECT}-deep-1"
 echo "$0: PROJECT=${PROJECT}"
 echo "$0: CONTAINER=${CONTAINER}"
 
